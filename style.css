@@ -68,51 +68,7 @@ button{
 }
 
 
-/*CSS of section Table*/
-.table{
-    width: 100%;
-    overflow-x: scroll; 
-}
-.table::-webkit-scrollbar {
-    display: none;
-}
-.table-main{
-    width: 1438px;
-}
-.table tbody tr{
-    display: flex;
-    justify-content: space-between;
-    gap: 40px;
-    padding: 20px 0px;
-    border-bottom: 1px solid white;
-}
 
-.table tbody tr td:nth-child(1){
-    width: 20%;
-}
-.table tbody tr td:nth-child(2){
-    width: 10%; 
-}
-.table tbody tr td:nth-child(3){
-    width: 10%;
-}
-.table tbody tr td:nth-child(4){
-    width: 20%;
-}
-.table tbody tr td:nth-child(5){
-    width: 10%;
-}
-.table tbody tr td:nth-child(6){
-    width: 20%;
-}
-.coin-img, td{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-.coin-img img{
-    border-radius: 50%;
-}
 
 /* starts from here */
 .item{
