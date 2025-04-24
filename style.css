@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #1A1A1C;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+/*Utility classes*/
+.container{
+    padding: 20px 40px;
+}
+.container2{
+    padding: 0px 40px;
+}
+
+.item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom:15px;
+    border-bottom: 2px solid #fff;
+    margin-bottom:10px;
+}
+.coin-img{
+    display: flex;
+    align-items: center;
+}
+img{
+    width:100px;
+    height:100px;
+}
+/*CSS of section Header*/
+.nav{
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.btn{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+input{
+    width: 60vw;
+    padding: 15px;
+    color: white;
+    background-color: #1A1A1C;
+    border: 1px solid white;
+}
+button{
+    width: 18vw;
+    padding: 15px;
+    color: white;
+    background-color: #1A1A1C;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+
+/*CSS of section Table*/
+.table{
+    width: 100%;
+    overflow-x: scroll; 
+}
+.table::-webkit-scrollbar {
+    display: none;
+}
+.table-main{
+    width: 1438px;
+}
+.table tbody tr{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 20px 0px;
+    border-bottom: 1px solid white;
+}
+
+.table tbody tr td:nth-child(1){
+    width: 20%;
+}
+.table tbody tr td:nth-child(2){
+    width: 10%; 
+}
+.table tbody tr td:nth-child(3){
+    width: 10%;
+}
+.table tbody tr td:nth-child(4){
+    width: 20%;
+}
+.table tbody tr td:nth-child(5){
+    width: 10%;
+}
+.table tbody tr td:nth-child(6){
+    width: 20%;
+}
+.coin-img, td{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.coin-img img{
+    border-radius: 50%;
+}
+
+/* starts from here */
+.item{
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+}
